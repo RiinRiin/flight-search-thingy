@@ -50,4 +50,3 @@ You can alternatively find my docker image in the docker hub:
 ```
 https://hub.docker.com/r/riinriindocker/flight-search-thingy
 ```
-
