@@ -1,0 +1,42 @@
+<h1>Flight Search Dashboard</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+            <th>Flight Identifier</th>
+            <th>Flight Number</th>
+            <th>Scheduled Origin Gate</th>
+            <th>Scheduled Destination Gate</th>
+            <th>Out GMT</th>
+            <th>In GMT</th>
+            <th>Off GMT</th>
+            <th>On GMT</th>
+            <th>Destination</th>
+            <th>Origin</th>
+            <th>Destination Full Name</th>
+            <th>Origin Full Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let flight of flights">
+            <td>{{flight.id}}</td>
+            <td>{{flight.created_at}}</td>
+            <td>{{flight.updated_at}}</td>
+            <td>{{flight.flight_identifier}}</td>
+            <td>{{flight.flt_num}}</td>
+            <td>{{flight.scheduled_origin_gate}}</td>
+            <td>{{flight.scheduled_destination_gate}}</td>
+            <td>{{flight.out_gmt}}</td>
+            <td>{{flight.in_gmt}}</td>
+            <td>{{flight.off_gmt}}</td>
+            <td>{{flight.on_gmt}}</td>
+            <td>{{flight.destination}}</td>
+            <td>{{flight.origin}}</td>
+            <td>{{flight.destination_full_name}}</td>
+            <td>{{flight.origin_full_name}}</td>
+        </tr>
+    </tbody>
+</table>
