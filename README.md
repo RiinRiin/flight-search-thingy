@@ -31,10 +31,6 @@ Grabs matching stations (even if partially filled)
 http://localhost:5000/api/<station>
 ```
 
-You can alternatively find my docker image in the docker hub:
-```
-https://hub.docker.com/r/riinriindocker/flight-search-thingy
-```
 ### Running Angular Application
 
 1. Run Docker Desktop Application
