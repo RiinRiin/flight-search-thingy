@@ -9,7 +9,6 @@ make_json(csvFilePath, jsonFilePath)
 
 with open(jsonFilePath) as fp:
     json_data = json.load(fp)
-# json_formatted_str = json.dumps(json_data, indent=2)
 
 app = Flask(__name__)
 CORS(app)
