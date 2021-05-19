@@ -9,8 +9,12 @@ export class RestService {
 
   constructor(private http:HttpClient) { }
 
-  url: string = "http://localhost:5000/api/flights";
+  url: string = "http://localhost:5000/api";
   getFlights(){
-    return this.http.get<Flights[]>(this.url);
+    return this.http.get<Flights[]>(this.url + "/flights");
+  }
+
+  getStations(station){
+    return this.http.get<Flights[]>(this.url + "/" + station);
   }
 }
