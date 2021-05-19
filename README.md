@@ -49,7 +49,7 @@ http://localhost:5000/api/<station>
 
 2. When using the search bar, autocomplete does not show up when holding SHIFT + alphanumeric.
 
-3. User must press ENTER to complete the search and query the results. It is possible to do dynamic search but query from serverside slows it down so I had to limit through user presing ENTER to query. It could be good idea to add pagination and limit results to 10.
+3. User must press ENTER to complete the search and get the results. It is possible to do dynamic search but query from serverside slows it down so I had add this limitation. It could be good idea to add pagination and limit results to 10 which would speed up the get request.
 
 4. Even after clicking on the auto suggestion the user must press ENTER to complete the search.
 
