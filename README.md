@@ -31,7 +31,7 @@ However, you may use other tech if you are more comfortable with something else.
 Have the following installed on your machine:
 - [ ] [Install Docker](https://hub.docker.com/?overlay=onboarding)
 
-### Running the Application
+### Running Flask Application
 
 1. Run Docker Desktop Application
 
