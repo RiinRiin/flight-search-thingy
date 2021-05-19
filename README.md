@@ -45,13 +45,13 @@ http://localhost:5000/api/<station>
 ```
 
 ### NOTE
-1. When first starting the applicaiton, it could take some time to load all the data. (5-15 seconds)
+1. When first starting the application, it could take some time to load all the data. (5-15 seconds) 
 
-2. When using the search bar, autocomplete does not show up when holding SHIFT + alphanumeric.
+2. When using the search bar, autocomplete does not show up when holding SHIFT + alphanumeric. 
 
-3. User must press ENTER to complete the search and get the results. It is possible to do dynamic search but query from serverside slows it down so I had add this limitation. It could be good idea to add pagination and limit results to 10 which would speed up the get request.
+3. The user must press ENTER to complete the search and get the results. It is possible to do a dynamic search but query from serverside slows it down so I had added this limitation. It could be a good idea to add pagination and limit results to 10 which would speed up the get request. 
 
-4. Even after clicking on the auto suggestion the user must press ENTER to complete the search.
+4. Even after clicking on the auto-suggestion, the user must press ENTER to complete the search. 
 
-5. The search bar allows partial filters: if user submits the letter 'a', it will query all origin/destination that has the letter 'a'.
+5. The search bar allows partial filters: if a user submits the letter 'a', it will query all origin/destination that has the letter 'a'.
 
