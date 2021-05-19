@@ -28,7 +28,7 @@ def flight_station(station):
         json_data_dict[key] = rows
     flights = []
     for flight in json_data_dict.values():
-        if flight["destination"] == station or flight["destination_full_name"] == station or flight["origin"] == station or flight["origin_full_name"] == station:
+        if station.lower() in flight["destination"].lower() or station.lower() in flight["destination_full_name"].lower() or station.lower() in flight["origin"].lower() or station.lower() in flight["origin_full_name"].lower():
             flights.append(flight)
     return jsonify(flights)
 
