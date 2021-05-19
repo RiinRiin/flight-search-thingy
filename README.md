@@ -22,27 +22,26 @@ Have the following installed on your machine:
 docker run -d -p 5000:5000 riinriindocker/flight-search-thingy
 ```
 
-3. API Endpoints
-```
-Grabs all flights:
-http://localhost:5000/api/flight
-
-Grabs matching stations (even if partially filled)
-http://localhost:5000/api/<station>
-```
-
 ### Running Angular Application
 
-1. Run Docker Desktop Application
-
-2. Go into commandline and copy/paste this docker image. It will pull and run the image.
+3. Go into commandline and copy/paste this docker image. It will pull and run the image.
 ```
 docker run -d -p 80:80 riinriindocker/dashboard
 ```
 
-3. Go to the url
+4. Go to the url
 ```
 http://localhost:80
+```
+
+### API Endpoints
+Grabs all flights:
+```
+http://localhost:5000/api/flight
+```
+Grabs matching stations (even if partially filled)
+```
+http://localhost:5000/api/<station>
 ```
 
 ### NOTE
