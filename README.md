@@ -37,7 +37,7 @@ http://localhost:80
 ### API Endpoints
 Grabs all flights:
 ```
-http://localhost:5000/api/flight
+http://localhost:5000/api/flights
 ```
 Grabs matching stations (even if partially filled)
 ```
